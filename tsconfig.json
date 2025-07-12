@@ -1,0 +1,22 @@
+// 20241201230406
+// https://gist.githubusercontent.com/codigoconjuan/f672eb7d5d60cad2eada9f192d6e20d0/raw/4221541debaec94b6061b108937825485fba3740/tsconfig.json
+
+{
+    "compilerOptions": {
+      "outDir": "./dist",//es la carpeta donde se guardaran los archivos transpilados
+      "rootDir": "./src", //es la carpeta donde se encuentran
+      "lib": [
+        "esnext"
+      ],
+      "target": "ESNext", //es la version de ECMAScript que se va a utilizar
+      "moduleResolution": "NodeNext",
+      "module": "NodeNext",
+      "strict": false,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "declaration": true
+    },
+    "include": [
+      "src/**/*.ts" //es para que busque todos los archivos con extension .ts
+    ]
+  }
